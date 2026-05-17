@@ -1,0 +1,7 @@
+◇ injected env (2) from .env // tip: ⌘ enable debugging { debug: true }
+Server is running on http://0.0.0.0:5000
+Connected to the SQLite database.
+Connected to the Dropamin SQLite database at: /home/team/shared/backend/dropamin.sqlite
+Database initialized with schema.
+Academy table levels already exists.
+Tour table dropamin_workshops already exists.

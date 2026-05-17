@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dropamin Academy Data Structure",
+  "type": "object",
+  "properties": {
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "benefits": { "type": "string" }
+        },
+        "required": ["id", "name", "description"]
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "avg_rating": { "type": "number" },
+        "total_reviews": { "type": "integer" },
+        "kcal_range": { "type": "string" },
+        "retention_rate": { "type": "string" }
+      }
+    },
+    "testimonials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "author": { "type": "string" },
+          "text": { "type": "string" },
+          "rating": { "type": "number" },
+          "source": { "type": "string" }
+        },
+        "required": ["id", "author", "text", "rating"]
+      }
+    },
+    "pricing": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "price": { "type": "number" },
+          "currency": { "type": "string" },
+          "features": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["id", "name", "price"]
+      }
+    },
+    "registrations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "user_name": { "type": "string" },
+          "user_email": { "type": "string", "format": "email" },
+          "level_id": { "type": "integer" },
+          "city": { "type": "string" },
+          "status": { "type": "string", "enum": ["pending", "confirmed", "cancelled"] }
+        },
+        "required": ["id", "user_name", "user_email", "level_id", "city", "status"]
+      }
+    }
+  }
+}

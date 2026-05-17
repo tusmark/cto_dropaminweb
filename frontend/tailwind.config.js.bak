@@ -1,0 +1,27 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#6300E2", // Amethyst Purple
+        secondary: "#CCFF00", // Lime Green
+        dark: "#000000",
+        surface: "#111111",
+        gray: {
+          mid: "#AAAAAA",
+        }
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        mono: ["'Space Mono'", "monospace"],
+      },
+      backgroundImage: {
+        'gradient-signature': "linear-gradient(135deg, #6300E2 0%, #CCFF00 50%, #000000 100%)",
+      },
+    },
+  },
+  plugins: [],
+};

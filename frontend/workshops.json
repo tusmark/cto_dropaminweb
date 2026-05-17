@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "city": "Žilina",
+    "date": "2026-06-01",
+    "time": "18:00",
+    "location": "Mestské divadlo Žilina",
+    "price": 25,
+    "capacity": 100,
+    "available_spots": 100,
+    "is_sold_out": false
+  },
+  {
+    "id": 2,
+    "city": "Čadca",
+    "date": "2026-06-03",
+    "time": "18:00",
+    "location": "Dom kultúry Čadca",
+    "price": 20,
+    "capacity": 80,
+    "available_spots": 80,
+    "is_sold_out": false
+  },
+  {
+    "id": 3,
+    "city": "Bytča",
+    "date": "2026-06-05",
+    "time": "18:00",
+    "location": "Synagóga Bytča",
+    "price": 20,
+    "capacity": 60,
+    "available_spots": 60,
+    "is_sold_out": false
+  },
+  {
+    "id": 4,
+    "city": "Martin",
+    "date": "2026-06-08",
+    "time": "18:00",
+    "location": "Barmuseum Martin",
+    "price": 25,
+    "capacity": 100,
+    "available_spots": 100,
+    "is_sold_out": false
+  },
+  {
+    "id": 5,
+    "city": "Bratislava",
+    "date": "2026-06-12",
+    "time": "19:00",
+    "location": "Nová Cvernovka",
+    "price": 30,
+    "capacity": 200,
+    "available_spots": 200,
+    "is_sold_out": false
+  },
+  {
+    "id": 6,
+    "city": "Banská Bystrica",
+    "date": "2026-06-15",
+    "time": "18:00",
+    "location": "Záhrada CNK",
+    "price": 25,
+    "capacity": 120,
+    "available_spots": 120,
+    "is_sold_out": false
+  },
+  {
+    "id": 7,
+    "city": "Košice",
+    "date": "2026-06-18",
+    "time": "18:00",
+    "location": "Tabačka Kulturfabrik",
+    "price": 25,
+    "capacity": 150,
+    "available_spots": 150,
+    "is_sold_out": false
+  },
+  {
+    "id": 8,
+    "city": "Brno",
+    "date": "2026-06-22",
+    "time": "18:00",
+    "location": "Kabinet Múz",
+    "price": 600,
+    "capacity": 100,
+    "available_spots": 100,
+    "is_sold_out": false
+  },
+  {
+    "id": 9,
+    "city": "Praha",
+    "date": "2026-06-25",
+    "time": "19:00",
+    "location": "MeetFactory",
+    "price": 700,
+    "capacity": 250,
+    "available_spots": 250,
+    "is_sold_out": false
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dropamin Workshop Data Structure",
+  "type": "object",
+  "properties": {
+    "workshops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "city": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "time": { "type": "string" },
+          "location": { "type": "string" },
+          "price": { "type": "number" },
+          "capacity": { "type": "integer" },
+          "available_spots": { "type": "integer" },
+          "is_sold_out": { "type": "boolean" }
+        },
+        "required": ["id", "city", "date", "location", "price", "capacity", "available_spots"]
+      }
+    },
+    "reservations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "workshop_id": { "type": "integer" },
+          "customer_name": { "type": "string" },
+          "customer_email": { "type": "string", "format": "email" },
+          "customer_phone": { "type": "string" },
+          "tickets_count": { "type": "integer", "minimum": 1 },
+          "total_price": { "type": "number" },
+          "status": { "type": "string", "enum": ["pending", "confirmed", "cancelled"] },
+          "created_at": { "type": "string", "format": "date-time" }
+        },
+        "required": ["id", "workshop_id", "customer_name", "customer_email", "tickets_count", "total_price", "status"]
+      }
+    }
+  }
+}

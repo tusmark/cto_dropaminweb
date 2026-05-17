@@ -1,0 +1,87 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Začiatočníci",
+      "description": "Základy shuffle dance od nuly. Naučíš sa Running Man, T-Step a jednoduché kombinácie. Ideálne pre tých, ktorí nikdy netancovali.",
+      "target_audience": "Nulové skúsenosti, chuť začať niečo nové."
+    },
+    {
+      "id": 2,
+      "title": "Mierne pokročilí",
+      "description": "Zlepšovanie techniky základných krokov a pridávanie nových variácií. Zameranie na plynulosť a prepájanie pohybov.",
+      "target_audience": "Ovládaš základy, chceš sa hýbať plynulejšie."
+    },
+    {
+      "id": 3,
+      "title": "Pokročilí",
+      "description": "Práca na vlastnom štýle, muzikalite a náročnejších choreografiách. Zameranie na dynamiku a výraz.",
+      "target_audience": "Dobrá technika, hľadáš sebavyjadrenie a výzvu."
+    },
+    {
+      "id": 4,
+      "title": "Fanatici",
+      "description": "Príprava na súťaže a battle. Extrémna intenzita, pokročilé koncepty a medzinárodná úroveň.",
+      "target_audience": "Ambícia reprezentovať a tancovať na profi úrovni."
+    }
+  ],
+  "stats": {
+    "avg_rating": 9.47,
+    "total_reviews": 26,
+    "kcal_range": "500-850 kcal",
+    "retention_rate": "76-85%"
+  },
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Jana",
+      "text": "Konečne pohyb, ktorý ma skutočne baví! Za tréning spálim neskutočne veľa kalórií a odchádzam plná energie.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "id": 2,
+      "author": "Tomáš",
+      "text": "Skvelý spôsob ako vypnúť po práci. Komunita je super a nikto ťa nesúdi, aj keď ti to zo začiatku nejde.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "id": 3,
+      "author": "Marta",
+      "text": "Tancujeme spolu so synom a je to náš spoločný čas, ktorý si obaja užívame. Odporúčam pre všetky vekové kategórie.",
+      "rating": 5,
+      "source": "Google"
+    },
+    {
+      "id": 4,
+      "author": "Martin",
+      "text": "Ak hľadáš profi prístup a chceš sa posunúť na battle úroveň, si na správnom mieste. Najlepší shuffle v regióne.",
+      "rating": 5,
+      "source": "Instagram"
+    }
+  ],
+  "pricing": [
+    {
+      "id": 1,
+      "name": "Jednorazový vstup",
+      "price": 8,
+      "currency": "EUR",
+      "features": ["60 minút tréningu", "Individuálny feedback", "Prístup do komunity"]
+    },
+    {
+      "id": 2,
+      "name": "Mesačná permanentka",
+      "price": 30,
+      "currency": "EUR",
+      "features": ["4-5 tréningov mesačne", "Zvýhodnená cena", "Prioritné info o workshopoch"]
+    },
+    {
+      "id": 3,
+      "name": "Full Academy Pass",
+      "price": 55,
+      "currency": "EUR",
+      "features": ["Neobmedzené tréningy", "Individuálny progres plán", "Zľavy na merch"]
+    }
+  ]
+}
